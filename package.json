@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist -m \"Deploy to GitHub Pages\"",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
