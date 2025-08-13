@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // Asegúrate de reemplazar 'martin-llm-web' con el nombre exacto de tu repositorio en GitHub.
-  base: '/martinLLM/',
+  base: '/MartinLLM/',
 })

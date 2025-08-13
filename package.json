@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/LuisJDomingo/MartinLLM/issues"
   },
-  "homepage": "https://github.com/LuisJDomingo/MartinLLM#readme",
+  "homepage": "https://LuisJDomingo.github.io/MartinLLM",
   "devDependencies": {
     "@vitejs/plugin-react": "^5.0.0",
     "autoprefixer": "^10.4.21",
