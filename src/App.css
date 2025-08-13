@@ -1,6 +1,16 @@
-@import "tailwindcss";
+/* ===========================
+   Tailwind Imports
+=========================== */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Plugin extra de animaciones (opcional) */
 @import "tw-animate-css";
 
+/* ===========================
+   Custom Variants y Variables
+=========================== */
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -8,6 +18,7 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -41,8 +52,12 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+/* ===========================
+   Root Variables
+=========================== */
 :root {
   --radius: 0.625rem;
+
   /* Martin LLM Dark Theme Colors */
   --background: #1a1a2e;
   --foreground: #ffffff;
@@ -77,6 +92,9 @@
   --sidebar-ring: #4a90e2;
 }
 
+/* ===========================
+   Base Styles
+=========================== */
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -87,7 +105,9 @@
   }
 }
 
-/* Custom styles for Martin LLM */
+/* ===========================
+   Custom Styles
+=========================== */
 .gradient-bg {
   background: linear-gradient(135deg, #1a1a2e 0%, #2d2d44 100%);
 }
@@ -124,12 +144,8 @@
 }
 
 @keyframes pulse {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.7;
-  }
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
 }
 
 .typing-animation {
@@ -140,12 +156,11 @@
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from { width: 0; }
+  to { width: 100%; }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #4a90e2 }
+  from, to { border-color: transparent; }
+  50% { border-color: #4a90e2; }
 }
-

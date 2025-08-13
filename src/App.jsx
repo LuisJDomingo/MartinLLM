@@ -21,9 +21,9 @@ import {
 import './App.css'
 
 // Import images
-import appScreenshot from './assets/images/app-screenshot.png'
-import aiChatInterface from './assets/images/ai-chat-interface.jpg'
-import aiBackground from './assets/images/ai-background.jpg'
+import appScreenshot from './assets/images/localhost_2025-08-04_11-18-53_2571.webp'
+import aiChatInterface from './assets/images/A2DA441F-AA0B-4556-9F9F-280C129BF645.png'
+import aiBackground from './assets/images/B2C47CAF-A489-4B13-977D-AECCF6C0426F.png'
 
 function App() {
   const [isVisible, setIsVisible] = useState(false)
