@@ -18,7 +18,6 @@ import {
   Cpu,
   BarChart3
 } from 'lucide-react'
-import './App.css'
 
 // Import images
 import appScreenshot from './assets/images/localhost_2025-08-04_11-18-53_2571.webp'
@@ -398,4 +397,3 @@ function App() {
 }
 
 export default App
-
