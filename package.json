@@ -10,7 +10,7 @@
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview" 
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -31,9 +31,14 @@
     "vite": "^5.3.1"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
+    "bootstrap": "^5.3.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.395.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "bootstrap": "^5.3.3",
-    "lucide-react": "^0.395.0"
+    "tailwind-merge": "^3.3.1",
+    "tw-animate-css": "^1.3.6"
   }
 }
